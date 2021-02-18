@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+ /* start styling top bar with Horiseon logo and links */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,17 +40,21 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* end top bar styling */
 
+/* reused link formatting */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* reused paragraph formatting */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* image directly below the top bar */
+#backgroundImg {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +63,24 @@ p {
     background-position: center;
 }
 
+/* Reusable class for left/right formatting */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.articles {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Side bar formatting */
+.sideBar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,6 +91,7 @@ p {
     background-color: #2589bd;
 }
 
+/* styling within the side bar */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +140,7 @@ p {
     max-width: 150px;
 }
 
+/* main article styling */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +195,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer, credits and copyright styling */
 .footer {
     padding: 30px;
     clear: both;
